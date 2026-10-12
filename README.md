@@ -90,9 +90,7 @@ docs/            原方案副本、引脚核查、适用开发规范、实物记
 reports/         已脱敏的验收摘要和生产参数波形
 ```
 
-本次开发验证使用本机 pango-mcp MCP 服务及 ModelSim、PDS 2023.2-SP3。仓库提供标准 stdio JSON-RPC 客户端，不包含 MCP 服务端、PDS 或 ModelSim。仓库代码采用 [MIT License](LICENSE)。
 
-调用工具前在本机设置 `PANGO_MCP_SERVER` 和 `PANGO_MCP_ENV_FILE`。不要把许可证、访问令牌、原始 MCP/厂商日志或本机绝对路径提交到仓库。GUI打开本工程时禁止并发写工程；写操作先备份。仿真与构建脚本只验证工程，不扫描或下载实板。
 
 在本机重新构建前关闭 PDS GUI，然后运行（脚本同时归档新的IO及时序证据）：
 
