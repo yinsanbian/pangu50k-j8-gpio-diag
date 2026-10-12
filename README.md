@@ -91,9 +91,6 @@ reports/         已脱敏的验收摘要和生产参数波形
 ```
 
 
-
-在本机重新构建前关闭 PDS GUI，然后运行（脚本同时归档新的IO及时序证据）：
-
 ```powershell
 ./scripts/run_pds.ps1
 ./sim/run_sim.ps1 -Test all
