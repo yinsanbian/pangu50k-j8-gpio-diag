@@ -1,0 +1,80 @@
+$date
+	Sat Oct 10 22:24:05 2026
+$end
+$version
+	ModelSim Version 10.7
+$end
+$timescale
+	1ps
+$end
+
+$scope module tb_gpio_production $end
+
+$scope module dut $end
+$var wire 34 ! drive_en [33:0] $end
+$var wire 1 " direction $end
+$var wire 1 # tx_gpio $end
+$var wire 1 $ core_busy $end
+$var wire 1 % core_done $end
+
+$scope module u_ctrl $end
+$var wire 1 & sample_strobe $end
+$upscope $end
+$var wire 32 ' samples_ab [31:0] $end
+$var wire 32 ( samples_ba [31:0] $end
+$var wire 32 ) errors_ab [31:0] $end
+$var wire 32 * errors_ba [31:0] $end
+$upscope $end
+$var reg 1 + host_tx $end
+$var wire 1 , uart_tx $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1+
+b1 !
+b0 )
+b0 *
+b1100010 '
+b0 (
+1,
+1#
+1$
+0%
+0"
+0&
+$end
+#0
+0#
+#99980000
+1&
+#100000000
+0&
+b1100011 '
+#1000000000
+1#
+#1099980000
+1&
+#1100000000
+0&
+b1100100 '
+#2000000000
+0#
+b0 !
+#2100000000
+1"
+b10 !
+#2199980000
+1&
+#2200000000
+0&
+b1 (
+#3100000000
+1#
+#3199980000
+1&
+#3200000000
+0&
+b10 (
+#4100000000
+0#

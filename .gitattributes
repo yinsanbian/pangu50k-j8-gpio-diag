@@ -1,0 +1,7 @@
+* text=auto
+*.v text eol=lf
+*.sv text eol=lf
+*.fdc text eol=lf
+*.md text eol=lf
+*.csv text eol=lf
+docs/source_plan.md whitespace=-trailing-space

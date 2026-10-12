@@ -1,0 +1,45 @@
+# PDS generated databases, intermediate reports, and bitstreams
+pds/compile/
+pds/synthesize/
+pds/device_map/
+pds/place_route/
+pds/generate_netlist/
+pds/report_*/
+pds/generate_bitstream/
+pds/.pango-mcp/
+pds/logbackup/
+*.sbit
+*.smsk
+*.sfc
+*.wlf
+
+# ModelSim work libraries and local configuration
+sim/._fpga_msim/
+sim/**/._fpga_msim/
+sim/work/
+sim/**/work/
+sim/modelsim.ini
+sim/**/modelsim.ini
+sim/**/uart_observed.txt
+sim/**/production_uart_observed.txt
+*.log
+*.pyc
+__pycache__/
+
+# Local MCP configuration, credentials, and machine-specific outputs
+.env
+.env.*
+*.lic
+reports/mcp/
+reports/sim_args/
+reports/*.result.json
+reports/*.txt
+reports/*.rtr
+reports/*.json.tmp
+scripts/pds_build.json
+scripts/*_args.json
+sim/*_args.json
+sim/**/arguments.json
+
+# Generated production wave is available in the checked-in, cropped report VCD
+reports/gpio_production.vcd

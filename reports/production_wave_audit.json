@@ -1,0 +1,32 @@
+{
+  "ok": true,
+  "source": "gpio_production.vcd",
+  "timebase": "1ps",
+  "drive_masks": [
+    0,
+    1,
+    0,
+    2,
+    0
+  ],
+  "direction_duration_ns": [
+    100000000,
+    100000000
+  ],
+  "high_z_gap_ns": 100000,
+  "sampling": {
+    "ab": {
+      "samples": 100,
+      "settle_ns": 100000,
+      "symbol_ns": 1000000
+    },
+    "ba": {
+      "samples": 100,
+      "settle_ns": 100000,
+      "symbol_ns": 1000000
+    }
+  },
+  "crop_start_absolute_ns": 124133730,
+  "crop_end_absolute_ns": 128233730,
+  "cropped_vcd": "gpio_turnaround.vcd"
+}
